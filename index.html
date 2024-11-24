@@ -79,6 +79,17 @@
             fill: var(--highcharts-color-2);
             stroke: var(--highcharts-color-2);
         }
+        button{
+            display: block;
+            backgrond-color: #45a049;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            opacity:0.5;
+        }
     </style>
 </head>
 <body>
@@ -223,7 +234,7 @@
                         },
                         stops: [
                             [0, Highcharts.getOptions().colors[6]],
-                            [1, Highcharts.color(Highcharts.getOptions().colors[6]).setOpacity(0).get('rgba')]
+                            [1, Highcharts.color(Highcharts.getOptions().colors[5]).setOpacity(0).get('rgba')]
                         ]
                     }
                 } 
